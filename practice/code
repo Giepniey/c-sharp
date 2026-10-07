@@ -1,0 +1,126 @@
+
+using System;
+
+namespace Myfirstprogram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            ////write in console window
+            //Console.WriteLine("Hello, World!");
+            ////write ouput to the console window in new line
+            //Console.Write("hello syug");
+            ////wirte line  but NOT in new line
+            //Console.Write("\nhello syug");
+
+            ////let user type something
+            //Console.ReadKey();
+            ////let user type something and store it in a variable    
+
+            //Console.Read();
+            ////let user type something
+
+
+            ////decleration
+            //  int x;
+            ////initialization
+            //  x = 10;
+            //decleration and initialization
+            //int y = 20;
+
+            //int age = 20; //store whole number
+            //double height = 5.9; //store decimal number
+            //bool isStudent = true; //store boolean value
+            //char grade = 'A'; //store single character
+            //string name = "John"; //store string of characters
+
+
+
+            //Console.Write("what is your name? ");
+            //string name = Console.ReadLine();
+
+            //Console.Write("what is your age? ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("are a student? ");
+            //bool isStudent = Convert.ToBoolean(Console.ReadLine());
+
+            //Console.Write("what is character grade? ");
+            //char grade = Convert.ToChar(Console.ReadLine());
+
+            //Console.Write("what is your height? ");
+            //double height = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("Your name is: " + name);
+            //Console.WriteLine("Your age is: " + age);
+            //Console.WriteLine("Your are a student: " + isStudent);
+            //Console.WriteLine("Your grade is: " + grade);
+            //Console.WriteLine("Your height is: " + height);
+            /*
+            constant immutable value which cannot be changed after declaration
+            ex.
+               const double pi = 3.14;
+             console.writeLine(pi);
+
+
+            console.writeline(x.GetType())
+            it displays the data type of the variable x. For example, if x is an integer, it will display "System.Int32". If x is a string, it will display "System.String".
+
+
+            Typecasting converting one data type to another data type
+
+            examples
+
+
+            double to int
+             double a = 9.78;
+             int b = Convert.ToInt32(a);
+            it will round the value of a to the nearest integer and assign it to b. In this case, b will be 10. 
+
+            int to string
+             int a = 321;
+             string b = Convert.ToString(a);
+            it will convert the integer value of a to a string and assign it to b. In this case, b will be "321". u cant use arrithmetic operations on string b because it is now a string data type.
+
+            string to char
+             string a = "f";
+             char b = Convert.ToChar(a);    
+
+            blahhh blahhh blahhh
+            Convert.To[TYPE](value)
+             to int just use Convert.ToInt32(value)
+
+            */
+
+
+            /*
+
+            Arithmetic Operators
+            Operator	Meaning     	Example	Result
+            +	       Addition	        5 + 2	7
+            -	       Subtraction	    5 - 2	3
+            *	       Multiplication	5 * 2	10
+            /	       Division	        5 / 2	2.5*
+            %	       Modulus / Remainder	5 % 2	1
+            ++	       Increment	    a++	a + 1
+            --	       Decrement	    a--	a - 1
+
+            ==    Equal
+            !=    Not equal
+            >     Greater
+            <     Less
+            >=    Greater/equal
+            <=    Less/equal
+            &&    AND
+            ||    OR
+            !     NOT
+
+                        */
+
+            Console.ReadKey();
+        }
+    }
+}
